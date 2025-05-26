@@ -100,7 +100,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 
 const Features = () => (
   <section className="bg-black pb-52">
-    <div className="container mx-auto px-3 md:px-10">
+    <div className="container mx-auto px-3 md:px-10 xs:px-6">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
           Into the Metagame Layer
@@ -112,7 +112,7 @@ const Features = () => (
         </p>
       </div>
 
-      <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+      <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh] ">
         <BentoCard
           src="videos/feature-1.mp4"
           title={

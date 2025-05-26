@@ -10,6 +10,11 @@ export default {
         "robert-medium": ["robert-medium", "sans-serif"],
         "robert-regular": ["robert-regular", "sans-serif"],
       },
+      screens: {
+        s: "425px",
+        xs: "320px",
+        
+      },
       colors: {
         blue: {
           50: "#DFDFF0",
